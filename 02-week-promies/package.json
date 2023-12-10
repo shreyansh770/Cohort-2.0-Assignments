@@ -1,0 +1,22 @@
+{
+  "name": "02-week-promies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-promisify-setTimeout.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "1-promisify-setTimeout": "npx jest test/1-promisify-setTimeout.test.js",
+    "2-sleep-completely": "npx jest test/2-sleep-completely.test.js",
+    "3-promise-all": "npx jest test/3-promise-all.test.js",
+    "4-promise-chain": "npx jest test/4-promise-chain.test.js",
+    "all": "npx jest test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
